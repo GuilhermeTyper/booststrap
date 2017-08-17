@@ -13,14 +13,14 @@
 }
 
 
-.contato-select{
+.contato-select,.grupo-radio{
 	width: 50%;
 	display: inline-block;
+	vertical-align:top;
 }
 
-.grupo-radio{
-	width: 50%;
-	display: inline-block;
+.grupo-radio .radio:first-child{
+	margin-top: 0;
 }
 
 .navegacao{
