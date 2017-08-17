@@ -2,6 +2,22 @@
 	margin-top: 20px;
 }
 
+body,html{
+	height: 100%;
+}
+
+header{
+	background-image: url(img/castelo.jpg);/* para fazer isso acontecer o body e o html tem que está com tamanho de 100% */
+	background-size: cover; /*deixando a imagem ajustada ao tamanho do header com o cover */
+	background-position: top center; /*deixando a imagem centralizada ao meio */
+	height: 100%;/* fazendo a imagem pegar 100% do seu tamanho*/
+}
+
+header h1{
+	margin-bottom: 0px;/*tirando o magin do booststrap que ele coloca nos h1 por padrão e deixando que no header ele fique com zero*/
+	margin-top: 0px;
+}
+
 .titulo-depoimentos{
 	background-color: #0275d8;
 	padding-bottom: 25px;
@@ -36,5 +52,13 @@ footer{
 
 footer address:last-child{
 	margin-bottom: 0px; /* adicionando espaço no ultimo elemento do footer na tag address*/
+}
+
+.topCasaFina-banner{
+	color: #fff;
+	background-color: rgba(0,0,0, 0.5);/*deixando a cor de fundo preto e transparente com o rgba*/
+	padding: 20px;
+	width: 80%;/*deixando o tamanho do banner um pouco menor*/
+	border-radius: 8px;/*fazendo com que as bordas fiquem arredondadas*/
 }
 
