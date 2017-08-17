@@ -26,3 +26,14 @@
 .navegacao{
 	background-color: light-blue;
 }
+
+footer{
+	background-color: #333333;
+	color:#fff;
+	padding: 20px;
+}
+
+footer address:last-child{
+	margin-bottom: 0;
+}
+
