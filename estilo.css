@@ -13,14 +13,14 @@
 }
 
 
-.contato-select,.grupo-radio{
-	width: 50%;
-	display: inline-block;
-	vertical-align:top;
+.contato-select,.grupo-radio{ /* tanto as duas classe será atribuido os mesmo elementos*/
+	width: 50%; /*deixando 50% para que a outra classe fique do seu lado*/
+	display: inline-block; /*deixando em bloco*/
+	vertical-align:top; /*deixando que os elementos fique alinhando verticalmente no topo*/
 }
 
 .grupo-radio .radio:first-child{
-	margin-top: 0;
+	margin-top: 0;/*pegando o primeiro elemento da classe radio e atribuindo uma margin a ele*/
 }
 
 .navegacao{
@@ -30,11 +30,11 @@
 footer{
 	background-color: #333333;
 	color:#fff;
-	padding: 20px;
+	padding: 20px; /* adicionando espaço entre o botão enviar e o rodapé*/
 	margin-top: 10px;
 }
 
 footer address:last-child{
-	margin-bottom: 0px;
+	margin-bottom: 0px; /* adicionando espaço no ultimo elemento do footer na tag address*/
 }
 
