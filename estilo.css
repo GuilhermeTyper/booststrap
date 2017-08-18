@@ -11,6 +11,7 @@ header{
 	background-size: cover; /*deixando a imagem ajustada ao tamanho do header com o cover */
 	background-position: top center; /*deixando a imagem centralizada ao meio */
 	height: 100%;/* fazendo a imagem pegar 100% do seu tamanho*/
+	position: relative;
 }
 
 header h1{
@@ -60,5 +61,9 @@ footer address:last-child{
 	padding: 20px;
 	width: 80%;/*deixando o tamanho do banner um pouco menor*/
 	border-radius: 8px;/*fazendo com que as bordas fiquem arredondadas*/
+	position: absolute;/* fazendo ele ficar com posição absoluta ao pai dele que é o header onde ele tera a posição relativa*/
+	top: 50%;/* fazendo o banner descer 50%*/
+	left: 50%;/* fazendo o banner tomar 50% do lado esquerdo ficando centralizado ao */
+	transform: translate(-50%, -50%);/* fazendo o banner ficar no meio para que um trasnforme não sobescreva o outro é só não falar qual o eixo usando somente trasnlade e as posição*/
 }
 
