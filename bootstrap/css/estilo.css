@@ -69,3 +69,10 @@ footer address:last-child{
 }
 
 /*Lembre-se de colocar position: relative no pai correto para que a chamada com absolute se posicione conforme esse pai. */
+
+@media(min-width: 768px){/*quando a pagina estiver com no minimo 768 ela aplia os efeitos abaixo ou seja  acima disso ela ja aplica*/
+	
+	#paineis-sobre{
+		margin-top: 0px; /*deixando o painel desgrudado assim que a tela for maior que 768px*/
+	}
+}

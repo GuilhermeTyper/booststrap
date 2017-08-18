@@ -44,48 +44,50 @@
 		</header>
 		<section id="sobre-nos" class="container">
 			<h1> Sobre nós</h1>
-			<img class="img-responsive" src="img/empresa.jpg" />
+			<div class="row">
+				<img class="img-responsive col-sm-6" src="img/empresa.jpg" />
 
-			<!--primeira divisória começa aqui-->
-			<div class="panel-group" id="paineis-sobre">
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title" data-toggle="collapse" data-target="#primeiro_paragrafo" data-parent="#paineis-sobre"> Desde 1935</h3>
+				<!--primeira divisória começa aqui-->
+				<div class="panel-group col-sm-6" id="paineis-sobre">
+					<div class="panel panel-default">
+						<div class="panel-heading"  data-toggle="collapse" data-target="#primeiro_paragrafo" data-parent="#paineis-sobre">
+							<h3 class="panel-title"> Desde 1935</h3>
+						</div>
+							<div id="primeiro_paragrafo" class="collapse in">
+								<div class="panel-body">
+									<p>Desde 1935 trazendo casas, mansões e prédios lindos para o mundo</p>
+								</div>
+							</div>
 					</div>
-					<div id="primeiro_paragrafo" class="collapse">
-						<div class="panel-body">
-							<p> A topCasa Fina Arquitetura está no mercado desde 1935 trazendo casas,mansões e prédios para o mundo.</p>
+					<!-- final da primeira divisória-->
+
+					<!--segunda divisória começa aqui -->
+					<div class="panel panel-default">
+						<div class="panel-heading" data-toggle="collapse" data-target="#segundo_paragrafo" data-parent="#paineis-sobre">
+							<h3 class="panel-title">Alegria em colaborar para um mundo mais bonito</h3>
+						</div>
+						<div id="segundo_paragrafo" class="collapse">
+							<div class="panel-body">
+								<p> Trazendo alegria para a vida das pessoas que tem dinheiro para gastar.</p>
+							</div>
 						</div>
 					</div>
-				</div>
-				<!-- final da primeira divisória-->
+					<!--final da segunda divisória-->
 
-				<!--segunda divisória começa aqui -->
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title" data-toggle="collapse" data-target="#segundo_paragrafo" data-parent="#paineis-sobre">Preços acessiveis</h3>
-					</div>
-					<div id="segundo_paragrafo" class="collapse">
-						<div class="panel-body">
-							<p> Preços a partir de 1000,00</p>
+					<!--terceira divisória começa aqui-->
+					<div class="panel panel-default">
+						<div class="panel-heading" data-toggle="collapse" data-target="#terceiro_paragrafo" data-parent="#paineis-sobre">
+							<h3 class="panel-title">Mais de 300 prêmios em design e em conforto.</h3>
 						</div>
-					</div>
-				</div>
-				<!--final da segunda divisória-->
-
-				<!--terceira divisória começa aqui-->
-				<div class="panel panel-default">
-					<div class="panel-heading">
-						<h3 class="panel-title" data-toggle="collapse" data-target="#terceiro_paragrafo" data-parent="#paineis-sobre">Alegria para colaborar com um mundo mais bonito</h3>
-					</div>
-					<div id="terceiro_paragrafo" class="collapse">
-						<div class="panel-body">
-							<p> Preços a partir de 1000,00</p>
+						<div id="terceiro_paragrafo" class="collapse">
+							<div class="panel-body">
+								<p>Mais de 5 milhões de clientes satisfeitos em todo o mundo.</p>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<section>
+		</section>
 				<!--final da terceira divisória-->
 
 				<div class="jumbotron">
@@ -98,58 +100,47 @@
 				<!--primeira imagem começa aqui-->
 				<section id="nosso-projeto" class="container">
 					<h2>Nosso projeto</h2>
-					<figure class="thumbnail">
-						<img class="img-responsive" src="img/projetos/casa-castelo.png" alt="foto de uma casa com o formato de um castelo">
-						<figcaption class="caption">
-							<h3>Casa Castelo</h3>
-							<p> A casa castelo é o último lançamento da TopcasaFina Arquitetura,feita para um monge.</p>
-						</figcaption>
-					</figure>
-					<!--fim da primeira imagem-->
 
+					<div class="row">
+						<figure class="thumbnail col-sm-6">
+							<img class="img-responsive" src="img/projetos/casa-castelo.png" alt="foto de uma casa com o formato de um castelo">
+							<figcaption class="caption">
+								<h3>Casa Castelo</h3>
+								<p> A casa castelo é o último lançamento da TopcasaFina Arquitetura,feita para um monge.</p>
+							</figcaption>
+						</figure>
+						
+						<figure class="thumbnail col-sm-6">
+							<img class="img-responsive" src="img/projetos/casa-lago.png" alt="foto de uma casa perto de um lago">
+							<figcaption class="caption">
+								<h3>Casa lago</h3>
+								<p> A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidende na época.</p>
+							</figcaption>
+						</figure>
 
-					<!--segunda imagem começa aqui-->
-					<figure class="thumbnail">
-						<img class="img-responsive" src="img/projetos/casa-lago.png" alt="foto de uma casa perto de um lago">
-						<figcaption class="caption">
-							<h3>Casa lago</h3>
-							<p> A Casa do Lago foi lar de inúmeras pessoas que conheciam o presidende na época.</p>
-						</figcaption>
-					</figure>
-					<!--fim da segunda imagem-->
+						<figure class="thumbnail col-sm-6">
+							<img class="img-responsive" src="img/projetos/mercado-marapira.png" alt="foto de um mercado com um formato de frutas">
+							<figcaption class="caption">
+								<h3>Mercado Marapira</h3>
+								<p> O Mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
+							</figcaption>
+						</figure>
+						
+						<figure class="thumbnail col-sm-6">
+							<img class="img-responsive" src="img/projetos/palacio-dionisio.png" alt="foto de uma casa com semelhança de palacio">
+							<figcaption class="caption">
+								<h3>Palacio Dionisio</h3>
+								<p> O Palácio Dionisio foi eleito pela revista "Grandes palácios" como o palácio mais lindo do mundo.</p>
+							</figcaption>
+						</figure>
 
-
-					<!--terceira imagem começa aqui-->
-					<figure class="thumbnail">
-						<img class="img-responsive" src="img/projetos/mercado-marapira.png" alt="foto de um mercado com um formato de frutas" <figcaption
-						 class="caption">
-						<h3>Mercado Marapira</h3>
-						<p> O Mercado Marapira foi projetado nos mínimos detalhes na arquitetura baseada em frutas.</p>
-						</figcaption>
-					</figure>
-					<!--fim da terceira imagem-->
-
-					<!--quarta imagem começa aqui-->
-					<figure class="thumbnail">
-						<img class="img-responsive" src="img/projetos/palacio-dionisio.png" alt="foto de uma casa com semelhança de palacio">
-						<figcaption class="caption">
-							<h3>Palacio Dionisio</h3>
-							<p> O Palácio Dionisio foi eleito pela revista "Grandes palácios" como o palácio mais lindo do mundo.</p>
-						</figcaption>
-					</figure>
-				</section>
-				<!--fim da quarta imagem-->
-
-
-				<!--quinta imagem começa aqui-->
-				<section class="container">
-					<figure class="thumbnail">
-						<img class="img-responsive" src="img/projetos/residencia-ludi.png" alt="foto de uma casa residencial">
-						<figcaption class="caption">
-							<h3>Residencia Ludi</h3>
-
-						</figcaption>
-					</figure>
+						<figure class="thumbnail col-sm-6">
+							<img class="img-responsive" src="img/projetos/residencia-ludi.png" alt="foto de uma casa residencial">
+							<figcaption class="caption">
+								<h3>Residencia Ludi</h3>
+							</figcaption>
+						</figure>
+					</div>
 				</section>
 				<!--fim da quinta imagem-->
 
