@@ -75,4 +75,16 @@ footer address:last-child{
 	#paineis-sobre{
 		margin-top: 0px; /*deixando o painel desgrudado assim que a tela for maior que 768px*/
 	}
+
+}
+
+@media(min-width: 992px) {
+	.topCasaFina-banner{
+		left: 40px;
+		transform: translate(0,-80%);
+		width: 40%;
+	}
+	.topCasaFina-bannerWrapper{
+		position: relative;
+	}
 }
