@@ -8,7 +8,7 @@ body,html{
 
 header{
 	background-image: url(../../img/castelo.jpg);/* para fazer isso acontecer o body e o html tem que está com tamanho de 100% */
-	background-size: cover; /*deixando a imagem ajustada ao tamanho do header com o cover */
+	background-size: cover; /*fazendo a imagem cobrir o fundo */
 	background-position: top center; /*deixando a imagem centralizada ao meio */
 	height: 100%;/* fazendo a imagem pegar 100% do seu tamanho*/
 	position: relative;
@@ -68,3 +68,4 @@ footer address:last-child{
 	transition: 0.3s; /*adicionando tempo para que o banner não demore e nem vá rapido demais*/
 }
 
+/*Lembre-se de colocar position: relative no pai correto para que a chamada com absolute se posicione conforme esse pai. */
