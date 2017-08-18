@@ -80,11 +80,12 @@ footer address:last-child{
 
 @media(min-width: 992px) {
 	.topCasaFina-banner{
-		left: 40px;
+		left: 0;
 		transform: translate(0,-80%);
-		width: 40%;
+		width: 50%;
 	}
 	.topCasaFina-bannerWrapper{
 		position: relative;
+		height: 100%;
 	}
 }
