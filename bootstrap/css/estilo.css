@@ -65,5 +65,6 @@ footer address:last-child{
 	top: 50%;/* fazendo o banner descer 50%*/
 	left: 50%;/* fazendo o banner tomar 50% do lado esquerdo ficando centralizado ao */
 	transform: translate(-50%, -50%);/* fazendo o banner ficar no meio para que um trasnforme não sobescreva o outro é só não falar qual o eixo usando somente trasnlade e as posição*/
+	transition: 0.3s;
 }
 
