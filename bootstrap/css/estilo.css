@@ -75,6 +75,9 @@ footer address:last-child{
 	#paineis-sobre{
 		margin-top: 0px; /*deixando o painel desgrudado assim que a tela for maior que 768px*/
 	}
+	.titulo-depoimentos{
+		width: 100%;
+	}
 
 }
 
